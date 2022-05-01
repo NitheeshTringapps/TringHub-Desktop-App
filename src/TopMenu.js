@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Notification_Icon from './assets/images/top_menu/ic_notification-icon_notification_off.svg';
 import Profile_Photo from './assets/images/top_menu/profile.png';
 import Search_Icon from './assets/images/top_menu/Search box/ic_search-icon_search.svg';
@@ -29,8 +29,12 @@ function SearchBox(){
 }
 
 function AddProjectButton(){
+    const[addProjectClicked, setAddProjectClicked]=useState(false);
+    const handleClick= ()=>{
+        addProjectClicked?setAddProjectClicked(false):setAddProjectClicked(true);
+    }
     return(
-        <div className="addProject">
+        <div className={addProjectClicked?"addProject_Clicked":"addProject"} onClick={handleClick}>
             <img src={Icon_Plus} className="Icon_Plus" alt="Icon_Plus"/>
             <p className="add-project-text">Add Project</p>
         </div>

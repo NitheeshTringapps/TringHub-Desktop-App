@@ -8,9 +8,9 @@ function Homepage(){
     return(
         <div className="Homepage">
             <TopMenu/>
-            <h2>Dashboard</h2>
+            <h2 className="SubHeading">Dashboard</h2>
             <Dashboard/>
-            <h2>Current Projects</h2>
+            <h2 className="SubHeading">Current Projects</h2>
             <CurrentProjects/>
         </div>
     )

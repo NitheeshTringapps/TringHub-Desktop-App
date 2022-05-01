@@ -11,10 +11,15 @@ import messages from './assets/images/left_menu/ic_chat-icon_chat.svg';
 class LeftMenu extends React.Component{
     render(){
         const content = options.map((option) =>
-            <div key={option.text} className="eachOption">
+            option.text === "DASHBOARD"?
+            (<div key={option.text} className="eachOption eachOptionClicked">
                 <img src={option.icon} className="side_logo" alt={options.text}/>
-                <p className="side_text">{option.text}</p>
-            </div>
+                <p className="side_text side_text_Clicked">{option.text}</p>
+            </div>):
+            (<div key={option.text} className="eachOption">
+            <img src={option.icon} className="side_logo" alt={options.text}/>
+            <p className="side_text">{option.text}</p>
+            </div>)
         );
         return(
             <div className="LeftMenu">

@@ -10,6 +10,9 @@
   margin-left: 40px;
 }
 .TopMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   box-sizing: border-box;
   height: 100px;
   width: 1181px;
@@ -22,7 +25,7 @@
   top: 35px;
   height: 34.94px;
   width: 150.04px;
-  margin-bottom: 48px;
+  margin-bottom: 60px;
 }
 .side_logo{
   width: 22px;
@@ -31,7 +34,7 @@
   height: 20px;
   width: 67px;
   color: #939598;
-  font-family: Poppins;
+  font-family: "Poppins",sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0;
@@ -44,17 +47,15 @@
   flex-direction: row;
   height: 58px;
   width: 192px;
-  padding: 20px;
+  padding: 15px;
   padding-left: 45px;
 }
-.eachOption:hover{
+.eachOption:hover, .eachOptionClicked{
   background-color: rgba(255,255,255,0.05);
   border-left: 4px solid #5BBC2E;
 }
-.TopMenu{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.side_text:hover, .side_text_Clicked{
+  color: #ffffff;
 }
 .SearchBox{
   display: flex;
@@ -75,8 +76,8 @@
   height: 17px;
   width: 160px;
   color: #939598;
-  font-family: Poppins;
-  font-size: 16px;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
   letter-spacing: 0;
   line-height: 18px;
 }
@@ -96,7 +97,7 @@
   height: 20px;
   width: 84px;
   color: #FFFFFF;
-  font-family: Poppins;
+  font-family: "Poppins",sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0;
@@ -104,7 +105,7 @@
   margin: 14px;
 }
 .Icon_Plus{
-  margin: 16px 4px 14px 12px;
+  margin: 16px 0px 14px 12px;
 }
 .divider{
   box-sizing: border-box;
@@ -120,7 +121,7 @@
   height: 34px;
   width: 200px;
   color: #232323;
-  font-family: Poppins;
+  font-family: "Poppins",sans-serif;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0;

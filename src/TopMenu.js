@@ -12,6 +12,7 @@ class TopMenu extends React.Component{
                 <AddProjectButton/>
                 <div className="divider"></div>
                 <img src={Notification_Icon} className="Notification_Icon" alt="Notification_Icon"/>
+                <NotificationBadge/>
                 <div className="divider"></div>
                 <img src={Profile_Photo} className="Profile_Photo" alt="Profile_Photo"/>
             </div>
@@ -38,6 +39,16 @@ function AddProjectButton(){
             <img src={Icon_Plus} className="Icon_Plus" alt="Icon_Plus"/>
             <p className="add-project-text">Add Project</p>
         </div>
+    );
+}
+
+function NotificationBadge(){
+    const[badgeClicked, setBadgeClicked]=useState(false);
+    const handleClick= ()=>{
+        badgeClicked?setBadgeClicked(false):setBadgeClicked(true);
+    }
+    return(
+        <span class={badgeClicked?"notification-badge-clicked":"notification-badge"} onClick={handleClick}>3</span>
     );
 }
 

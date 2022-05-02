@@ -126,6 +126,18 @@
 .Notification_Icon{
   margin: 2px;
 }
+.notification-badge {
+  position: relative;
+  top: -10px;
+  right: 10px;
+  padding: 1px 7px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+.notification-badge-clicked{
+  font-size: 0px;
+}
 .SubHeading{
   height: 34px;
   width: 200px;

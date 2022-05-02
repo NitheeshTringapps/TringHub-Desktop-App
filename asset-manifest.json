@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tringhub-desktop-app/static/css/main.a6d6e717.css",
+    "main.js": "/tringhub-desktop-app/static/js/main.588f4f2a.js",
+    "static/js/787.48962652.chunk.js": "/tringhub-desktop-app/static/js/787.48962652.chunk.js",
+    "static/media/Logo.svg": "/tringhub-desktop-app/static/media/Logo.7ca264f9d6a45c8d5af3cbdf43fa5fd0.svg",
+    "static/media/ic_rocket-icon_startup.svg": "/tringhub-desktop-app/static/media/ic_rocket-icon_startup.26bb02a6af58569a26e46f3989ac5166.svg",
+    "static/media/ic_members-icon_users.svg": "/tringhub-desktop-app/static/media/ic_members-icon_users.b992dde2c90bd9e206185d9be9226d67.svg",
+    "static/media/ic_chat-icon_chat.svg": "/tringhub-desktop-app/static/media/ic_chat-icon_chat.9c273babda3fa49049bbf825000fa41e.svg",
+    "static/media/icon_dashboard.svg": "/tringhub-desktop-app/static/media/icon_dashboard.1a1deb0cbd0b192ae56c29502f371344.svg",
+    "static/media/ic_search-icon_search.svg": "/tringhub-desktop-app/static/media/ic_search-icon_search.613e5de30d2abea3fa42ecd092e44d0e.svg",
+    "static/media/ic_notification-icon_notification_off.svg": "/tringhub-desktop-app/static/media/ic_notification-icon_notification_off.c80d78c76e1407d9a3e748257b26d0d7.svg",
+    "static/media/icon_plus.svg": "/tringhub-desktop-app/static/media/icon_plus.a5818c4c57225734a63c50b3a4375bb9.svg",
+    "static/media/ic_calendar-icon_date.svg": "/tringhub-desktop-app/static/media/ic_calendar-icon_date.9a8eef58025d572174b9069994fdfa5a.svg",
+    "static/media/ic_briefcase-icon_briefcase.svg": "/tringhub-desktop-app/static/media/ic_briefcase-icon_briefcase.5fa2907ed08f90ada61bb9e831c7bfde.svg",
+    "index.html": "/tringhub-desktop-app/index.html",
+    "main.a6d6e717.css.map": "/tringhub-desktop-app/static/css/main.a6d6e717.css.map",
+    "main.588f4f2a.js.map": "/tringhub-desktop-app/static/js/main.588f4f2a.js.map",
+    "787.48962652.chunk.js.map": "/tringhub-desktop-app/static/js/787.48962652.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6d6e717.css",
+    "static/js/main.588f4f2a.js"
+  ]
+}
